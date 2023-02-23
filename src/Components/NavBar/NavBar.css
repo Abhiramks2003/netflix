@@ -25,3 +25,26 @@
     right: 20px;
     width: 30px;
 }
+
+@media screen and (max-width:1024px){
+    header{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width:600px){
+    header{
+        height: 100vh;
+    }
+    .navbar{
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .logo{
+        position: absolute;
+    }
+    .avatar{
+        position: absolute;
+    }
+}

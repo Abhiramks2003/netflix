@@ -27,3 +27,19 @@
     max-height: 150px;
     margin-right: 10px;
 }
+
+@media screen and (max-width:600px){
+    .row{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+    .posters{
+        padding-left: 0px;
+    }
+    .poster{
+        width: 100%;
+    }
+    .smallposter{
+        margin-left: 0rem;
+    }
+}
