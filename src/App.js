@@ -4,7 +4,6 @@ import { originals,action,comedy} from './urls';
 import './App.css';
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
-
 function App() {
   return (
     <div className="App">
